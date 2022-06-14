@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>IAM WEBDEV | Signup</title>
+<link href="images/favicon.ico" rel="icon">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" href="css/owl.carousel.min.css">
+<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+<link rel="stylesheet" href="css/cubeportfolio.min.css">
+<link rel="stylesheet" href="css/revolution/navigation.css">
+<link rel="stylesheet" href="css/revolution/settings.css">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<!--PreLoader-->
+<div class="loader">
+   <div class="loader-inner">
+      <div class="cssload-loader"></div>
+   </div>
+</div>
+<!--PreLoader Ends-->
+
+<!-- header -->
+<header class="site-header">
+   <nav class="navbar navbar-expand-lg padding-nav static-nav">
+      <div class="container">
+         <a class="navbar-brand" href="index.html">
+         <img src="images/logo.png" alt="logo">
+         </a>
+         <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#xenav">
+            <span> </span>
+            <span> </span>
+            <span> </span>
+         </button>
+         <div class="collapse navbar-collapse" id="xenav">
+            <ul class="navbar-nav ml-auto mr-auto">
+               <li class="nav-item dropdown position-relative">
+                  <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Home </a>
+                  <div class="dropdown-menu">
+                     <a class="dropdown-item" href="index.html">Home</a>
+                     <a class="dropdown-item" href="blog_detail.html">Home</a>
+                  </div>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>  
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="gallery.html">Gallery</a>  
+               </li>
+               <li class="nav-item dropdown static">
+                  <a class="nav-link dropdown-toggle active" href="javascript:void(0)" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Pages </a>
+                  <ul class="dropdown-menu megamenu">
+                     <li>
+                        <div class="container">
+                           <div class="row">
+                              <div class="col-lg-3 col-md-6 col-sm-12">
+                                <h5 class="dropdown-title bottom10"> Page </h5> 
+                                 <a class="dropdown-item" href="">page</a>
+                                 <a class="dropdown-item" href="">page</a>
+                                 <a class="dropdown-item" href="">page</a> 
+                              </div>
+                              <div class="col-lg-3 col-md-6 col-sm-12">
+                                <h5 class="dropdown-title bottom10"> Page </h5> 
+                                 <a class="dropdown-item" href="">page</a>
+                                 <a class="dropdown-item" href="">page</a>
+                                 <a class="dropdown-item" href="">page</a>
+                              </div>
+                              <div class="col-lg-3 col-md-6 col-sm-12">
+                                 <h5 class="dropdown-title bottom10"> Page </h5> 
+                                 <a class="dropdown-item" href="signup.html">Sign up</a>
+                                 <a class="dropdown-item" href="signin.html">Sign in</a>  
+                                 <a class="dropdown-item" href="">page</a>
+                              </div>
+                              <div class="col-lg-3 col-md-6 col-sm-12">
+                                 <h5 class="dropdown-title bottom10"> Page </h5> 
+                                 <a class="dropdown-item" href="services.html">Services</a>
+                                 <a class="dropdown-item" href="services-detail.html">Services Detail</a>
+                                 <a class="dropdown-item" href="faq.html">FAQ's</a>
+                              </div>
+                           </div>
+                        </div>
+                     </li>
+                  </ul>
+               </li>
+               <li class="nav-item dropdown position-relative">
+                  <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Blog </a>
+                  <div class="dropdown-menu">
+                     <a class="dropdown-item" href="blog.html">Blog</a>
+                     <a class="dropdown-item" href="blog-detail.html">Blog detail</a>
+                  </div>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="contact.html">contact</a>
+               </li> 
+            </ul>
+         </div>
+         <ul class="social-icons social-icons-simple d-lg-inline-block d-none wow fadeInUp" data-wow-delay="300ms">
+            <li><a href="#."><i class="fab fa-facebook-f"></i> </a> </li>
+            <li><a href="#."><i class="fab fa-twitter"></i> </a> </li>
+            <li><a href="#."><i class="fab fa-linkedin-in"></i> </a> </li>
+         </ul>
+      </div>
+   
+   <!--side menu open button-->
+      <a href="javascript:void(0)" class="d-none d-lg-inline-block sidemenu_btn" id="sidemenu_toggle">
+          <span class="gradient-bg"></span> <span class="gradient-bg"></span> <span class="gradient-bg"></span>
+      </a>
+   </nav>
+
+   <!-- side menu -->
+   <div class="side-menu gradient-bg">
+      <div class="inner-wrapper">
+         <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
+         <nav class="side-nav w-100">
+            <ul class="navbar-nav">
+               <li class="nav-item">
+                  <a class="nav-link pagescroll" href="#banner-main">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link pagescroll" href="#our-process">Features</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link pagescroll" href="#our-team">Team</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link pagescroll" href="#portfolio_top">Portfolio</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link pagescroll" href="#our-pricings">Packages</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link pagescroll" href="#our-testimonial">Clients</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link pagescroll" href="#our-blog">Blog</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link pagescroll" href="#contactus">contact</a>
+               </li>
+            </ul>
+         </nav>
+
+         <div class="side-footer w-100">
+            <ul class="social-icons-simple white top40">
+               <li><a href="javascript:void(0)"><i class="fab fa-facebook-f"></i> </a> </li>
+               <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i> </a> </li>
+               <li><a href="javascript:void(0)"><i class="fab fa-instagram"></i> </a> </li>
+            </ul>
+            <p class="whitecolor">&copy; IAM WEBDEV. Coding, More Coding and Practice</p>
+         </div>
+      </div>
+   </div>
+   <!-- End side menu -->
+</header>
+<!-- header -->
+
+
+<!--Page Header-->
+<section id="main-banner-page" class="position-relative page-header sign-in-up-header parallax section-nav-smooth">
+   <div class="container">
+     <div class="row">
+       <div class="col-lg-6 offset-lg-3">
+         <div class="page-titles whitecolor text-center padding_top padding_bottom">
+           <h2 class="font-light">Build Your</h2>
+           <h2 class="font-bold">Next Landing Page</h2>
+           <h2 class="font-light">In Market</h2>
+           <h3 class="font-light">The Best Multipurpose Template in Market</h3>
+         </div>
+       </div>
+     </div>
+     <div class="gradient-bg title-wrap">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 whitecolor">
+         <h3 class="float-left">Signup</h3>
+         <ul class="breadcrumb top10 bottom10 float-right hoverShine">
+           <li class="breadcrumb-item hover-light"><a href="index.html">Home</a></li>
+           <li class="breadcrumb-item hover-light">Signup</li>
+         </ul>
+       </div>
+      </div>
+     </div>
+   </div>
+</section>
+<!--Page Header ends -->
+
+
+<!-- Main sign-up section starts -->
+<section id="ourfaq" class="bglight position-relative padding">
+  <div class="container">
+      <div class="row">
+         <div class="col-lg-6 col-md-8 col-sm-10 pr-0 whitebox">
+            <div class="widget logincontainer">
+               <h3 class="darkcolor bottom35">Create Your account </h3>
+               <form class="getin_form border-form" id="login">
+                  <div class="row">
+                     <div class="col-md-12 col-sm-12">
+                        <div class="form-group bottom35">
+                            <label for="registerName" class="d-none"></label>
+                           <input class="form-control" type="text" placeholder="Full Name:" required id="registerName">
+                        </div>
+                     </div>
+                     <div class="col-md-12 col-sm-12">
+                        <div class="form-group bottom35">
+                            <label for="registerEmail" class="d-none"></label>
+                           <input class="form-control" type="email" placeholder="Email:" required id="registerEmail">
+                        </div>
+                     </div>
+                     <div class="col-md-12 col-sm-12">
+                        <div class="form-group bottom35">
+                            <label for="registerPass" class="d-none"></label>
+                           <input class="form-control" type="password" placeholder="Password:" required id="registerPass">
+                        </div>
+                     </div>
+                     <div class="col-md-12 col-sm-12">
+                        <div class="form-group bottom35">
+                            <label for="registerPassConfirm" class="d-none"></label>
+                           <input class="form-control" type="password" placeholder="Confirm Password:" required id="registerPassConfirm">
+                        </div>
+                     </div>
+                      <div class="col-md-12 col-sm-12">
+                          <div class="form-group bottom35">
+                              <div class="form-check text-left">
+                                  <input class="form-check-input" checked type="checkbox" value="" id="rememberMe">
+                                  <label class="form-check-label" for="rememberMe">
+                                      Remember me on this device
+                                  </label>
+                              </div>
+                          </div>
+                      </div>
+                     <div class="col-sm-12">
+                        <button type="submit" class="button gradient-btn w-100">Register</button>
+                        <p class="top20 log-meta"> Already have an account? <a href="signin.html">Sign In</a> </p>
+                     </div>
+                  </div>
+               </form>
+            </div>
+         </div>
+          <div class="col-lg-6 pl-0">
+              <div class=" image login-image h-100">
+                  <img src="images/login-section-3.jpg" alt="" class="w-100 h-100">
+              </div>
+          </div>
+      </div>
+   </div>
+</section>
+<!-- Main sign-up section ends -->
+
+ 
+<!-- Contact US ends --> 
+<section id="stayconnect" class="bglight position-relative">
+  <div class="container">
+    <div class="contactus-wrapp">
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+           <div class="heading-title  wow fadeInUp" data-wow-delay="300ms">
+               <h3 class="darkcolor bottom20">Stay Connected</h3>
+            </div>
+        </div>
+         <div class="col-md-12 col-sm-12">
+            <form class="getin_form wow fadeInUp" data-wow-delay="400ms" onsubmit="return false;">
+                <div class="row">
+                  <div class="col-md-12 col-sm-12" id="result"></div>
+                  <div class="col-md-3 col-sm-6">
+                     <div class="form-group">
+                         <label for="first_name" class="d-none"></label>
+                        <input class="form-control" type="text" placeholder="First Name:" required id="first_name" name="first_name">
+                     </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                     <div class="form-group">
+                         <label for="company" class="d-none"></label>
+                        <input class="form-control" type="tel" placeholder="Company Name" id="company">
+                     </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                     <div class="form-group">
+                         <label for="email" class="d-none"></label>
+                        <input class="form-control" type="email" placeholder="Email:" required id="email" name="email">
+                     </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                     <button type="submit" class="button gradient-btn w-100" id="submit_btn">subscribe</button>
+                  </div>
+               </div>
+            </form>
+         </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Contact US ends -->
+
+
+<!--Site Footer Here-->
+<footer id="site-footer" class=" bgdark padding_top">
+   <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="footer_panel padding_bottom_half bottom20">
+            <a href="index.html" class="footer_logo bottom25"><img src="images/logo-transparent.png" alt="trax"></a>
+            <p class="whitecolor bottom25">Keep away from people who try to belittle your ambitions Small people always do that but the really great Friendly.</p>
+            <div class="d-table w-100 address-item whitecolor bottom25">
+              <span class="d-table-cell align-middle"><i class="fas fa-mobile-alt"></i></span>
+              <p class="d-table-cell align-middle bottom0">
+                +01 - 123 - 4567 <a class="d-block" href="mailto:web@support.com">web@support.com</a></p>
+            </div>
+            <ul class="social-icons white wow fadeInUp" data-wow-delay="300ms">
+               <li><a href="javascript:void(0)"><i class="fab fa-facebook"></i> </a> </li>
+               <li><a href="javascript:void(0)"><i class="fab fa-twitter"></i> </a> </li>
+               <li><a href="javascript:void(0)"><i class="fab fa-linkedin"></i> </a> </li>
+               <li><a href="javascript:void(0)"><i class="fab fa-instagram"></i> </a> </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="footer_panel padding_bottom_half bottom20">
+            <h3 class="whitecolor bottom25">Our FAQ</h3>
+             <ul class="links">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="about.html">About Us</a></li>
+               <li><a href="blog.html">Latest News</a></li>
+               <li><a href="javascript:void(0)">Business Planning</a></li>
+               <li><a href="contact.html">Contact Us</a></li>
+               <li><a href="javascript:void(0)">Privacy Policy</a></li>
+             </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="footer_panel padding_bottom_half bottom20">
+            <h3 class="whitecolor bottom25">Latest News</h3>
+             <ul class="latest_news whitecolor">
+              <li> <a href="#">Aenean tristique justo et... </a> <span class="date defaultcolor">15 March 2019</span> </li>
+              <li> <a href="#">Phasellus dapibus dictum augue... </a> <span class="date defaultcolor">15 March 2019</span> </li>
+              <li> <a href="#">Mauris blandit vitae. Praesent non... </a> <span class="date defaultcolor">15 March 2019</span> </li>
+            </ul>
+          </div>
+        </div>
+         <div class="col-lg-3 col-md-6 col-sm-6">
+          <div class="footer_panel padding_bottom_half bottom20"> 
+             <h3 class="whitecolor bottom25">Business hours</h3>
+             <p class="whitecolor bottom25">Our support available to help you 24 hours a day, seven days week</p>
+             <ul class="hours_links whitecolor">
+              <li><span>Monday-Saturday:</span> <span>8.00-18.00</span></li>
+              <li><span>Friday:</span> <span>09:00-21:00</span></li>
+              <li><span>Sunday:</span> <span>09:00-20:00</span></li>
+              <li><span>Calendar Events:</span> <span>24-Hour Shift</span></li>
+             </ul>
+          </div>
+         </div>
+      </div>
+   </div>
+</footer>
+<!--Footer ends-->
+
+
+<!--copyright-->
+<div class="copyright">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center wow fadeInUp animated" data-wow-delay="300ms" style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">
+                <p class="m-0 py-3">Copyright © 2019 <a href="javascript:void(0)" class="hover-default">Trex</a>. all rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/jquery-3.1.1.min.js"></script>
+
+<!--Bootstrap Core-->
+<script src="js/propper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<!--to view items on reach-->
+<script src="js/jquery.appear.js"></script>
+
+<!--Owl Slider-->
+<script src="js/owl.carousel.min.js"></script>
+
+<!--number counters-->
+<script src="js/jquery-countTo.js"></script>
+ 
+<!--Parallax Background-->
+<script src="js/parallaxie.js"></script>
+    
+<!--Cubefolio Gallery-->
+<script src="js/jquery.cubeportfolio.min.js"></script>     
+          
+        
+<!--WOw animations-->
+<!--<script src="js/wow.min.js"></script>-->
+            
+<!--Revolution SLider-->
+<script src="js/revolution/jquery.themepunch.tools.min.js"></script>
+<script src="js/revolution/jquery.themepunch.revolution.min.js"></script>
+<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
+<script src="js/revolution/extensions/revolution.extension.actions.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.carousel.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.kenburn.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.layeranimation.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.migration.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.navigation.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.parallax.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.slideanims.min.js"></script>
+<script src="js/revolution/extensions/revolution.extension.video.min.js"></script>
+
+<!--Google Map API-->
+<script src="js/functions.js"></script>
+
+</body>
+</html>
